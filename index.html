@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minecraft Trading Abbreviations</title>
+  <meta name="description" content="A dictionary of abbreviations used in the Minecraft OG account trading community." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Minecraft Trading Abbreviations</h1>
+      <p class="subtitle">
+        A dictionary of the shorthand used in the OG Minecraft account scene
+        (OGU, Kingz, BuiltByBit, Hypixel, MPGH and friends).
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="controls">
+      <div class="search">
+        <input
+          type="search"
+          id="search"
+          placeholder="Search a term, e.g. NFA, 3L, middleman..."
+          autocomplete="off"
+          aria-label="Search terms"
+        />
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+    </div>
+
+    <p class="count" id="count" aria-live="polite"></p>
+
+    <section class="grid" id="grid"></section>
+
+    <p class="empty" id="empty" hidden>No terms match your search.</p>
+
+    <p class="error" id="error" hidden>
+      Could not load <code>terms.json</code>. Browsers block fetching local files
+      over <code>file://</code>. Run a local server in this folder, e.g.
+      <code>python -m http.server 8000</code>, then open
+      <code>http://localhost:8000</code>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Community slang changes fast, definitions may vary by server or forum.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

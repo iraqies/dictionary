@@ -1,0 +1,163 @@
+[
+  {
+    "term": "OG",
+    "full": "Original",
+    "category": "naming",
+    "aliases": ["Original Gangster"],
+    "definition": "A short, old, or dictionary-word username that is rare and valuable. Usually means created before the Mojang-to-Microsoft migration, or a real English word / very short handle collectors want."
+  },
+  {
+    "term": "Semi-OG",
+    "full": "Semi Original",
+    "category": "naming",
+    "aliases": ["Semi"],
+    "definition": "A lesser OG: a root word with a single prefix or suffix (e.g. \"Games\", \"Replay\"), or a 4-5 letter name that spells nothing coherent. In between OG and normal."
+  },
+  {
+    "term": "3L",
+    "full": "3 Letter",
+    "category": "naming",
+    "aliases": ["3-char letters", "three letter"],
+    "definition": "A username made of exactly three letters, e.g. \"abc\". More valuable than a 3C because it has no numbers or symbols."
+  },
+  {
+    "term": "3C",
+    "full": "3 Character",
+    "category": "naming",
+    "aliases": ["3-char", "three character"],
+    "definition": "A username made of exactly three characters, which may mix letters, numbers or symbols, e.g. \"a1b\". Slightly less desirable than a pure 3L."
+  },
+  {
+    "term": "MSA",
+    "full": "Microsoft Account",
+    "category": "account",
+    "aliases": ["MSA-Made", "MSA-Migrated"],
+    "definition": "The Microsoft account type every modern Minecraft account runs on. Two kinds: MSA-Made (created natively as a Microsoft account, cannot be demigrated, safest) and MSA-Migrated (old Mojang account migrated over, can be demigrated and pulled via support)."
+  },
+  {
+    "term": "MSI",
+    "full": "Microsoft account (variant)",
+    "category": "account",
+    "aliases": [],
+    "definition": "Not a standard acronym in the scene. In threads it is usually written loosely alongside MSA to refer to a Microsoft account. If you found it in a specific listing, treat it as the same Microsoft-account family as MSA."
+  },
+  {
+    "term": "NFA",
+    "full": "No / Non-Full Access",
+    "category": "access",
+    "aliases": ["non full access"],
+    "definition": "You only receive a login token or session, not the password or email. You cannot change the credentials, so whoever holds the email can recover it later. Cheap, often shared or hacked alts."
+  },
+  {
+    "term": "FA",
+    "full": "Full Access",
+    "category": "access",
+    "aliases": ["full access"],
+    "definition": "The account and its email come with the purchase, so you can change the password, email and security info and actually keep it. The opposite of NFA, and more expensive."
+  },
+  {
+    "term": "MFA",
+    "full": "Migrated Full Access",
+    "category": "access",
+    "aliases": ["Multi-Factor Authentication"],
+    "definition": "In trading threads: a full-access account that was migrated from Mojang to Microsoft (and so can potentially be demigrated). Elsewhere it can also stand for Multi-Factor Authentication."
+  },
+  {
+    "term": "SFA",
+    "full": "Semi Full Access",
+    "category": "access",
+    "aliases": ["semi full access"],
+    "definition": "Partial access: you can log in and may change some things, but not everything. A middle ground between NFA and full access."
+  },
+  {
+    "term": "UFA",
+    "full": "Unmigrated Full Access",
+    "category": "access",
+    "aliases": ["unmigrated full access"],
+    "definition": "An older Mojang account that has not yet been forced onto Microsoft, sold with full access. Rare now that migration is mandatory."
+  },
+  {
+    "term": "OGO",
+    "full": "Original Owner",
+    "category": "community",
+    "aliases": ["original owner"],
+    "definition": "The person who originally created the account. \"Bought from the OGO\" means bought directly from the creator, which is considered a clean owner history. A \"fake OGO\" is a common scam."
+  },
+  {
+    "term": "OGU",
+    "full": "oguser.com / ogu.gg",
+    "category": "community",
+    "aliases": ["OGUser"],
+    "definition": "A major Minecraft OG-account marketplace forum. Also used to refer to the community/site itself."
+  },
+  {
+    "term": "OGI",
+    "full": "Original (Account) Information",
+    "category": "security",
+    "aliases": ["original info", "all OGI"],
+    "definition": "The information an account was created with, or anything needed to verify ownership to Mojang support: creation date/location, IP, TID, original email, payment method, etc. \"All OGI\" means everything is included."
+  },
+  {
+    "term": "OGE",
+    "full": "Original Email",
+    "category": "security",
+    "aliases": ["original email"],
+    "definition": "The first email address used to create or control the account. Buyers care because control of that email affects recovery and handover quality."
+  },
+  {
+    "term": "TID",
+    "full": "Transaction ID",
+    "category": "security",
+    "aliases": ["transaction id"],
+    "definition": "The account's creation or purchase transaction identifier. Part of the OGI used to prove ownership or unlock an account."
+  },
+  {
+    "term": "Beamed",
+    "full": "Stolen via session token",
+    "category": "security",
+    "aliases": ["beam", "beamed account"],
+    "definition": "An account stolen by grabbing a victim's login session token (often through malware, rats or token loggers) rather than getting the password. Beamed accounts are insecure and can be recovered by the victim."
+  },
+  {
+    "term": "Demigrated",
+    "full": "Demigration",
+    "category": "security",
+    "aliases": ["demigrate"],
+    "definition": "Having a Microsoft-migrated Minecraft account moved back to a Mojang-style state through support. Because it opens a recovery path, migrated accounts can be pulled; MSA-Made accounts cannot be demigrated."
+  },
+  {
+    "term": "C/O",
+    "full": "Current Offer",
+    "category": "selling",
+    "aliases": ["current offer", "CO"],
+    "definition": "The highest bid received so far on a listing, e.g. \"C/O: $35\". Lets buyers know where the price currently stands."
+  },
+  {
+    "term": "BIN",
+    "full": "Buy It Now",
+    "category": "selling",
+    "aliases": ["buy it now", "BIN price"],
+    "definition": "A fixed price at which the buyer can instantly purchase the account, with no bidding or negotiation, e.g. \"BIN: $300\"."
+  },
+  {
+    "term": "B/O",
+    "full": "Buyout / Best Offer",
+    "category": "selling",
+    "aliases": ["buyout", "BO", "best offer"],
+    "definition": "Either the instant-purchase price (buyout, same idea as BIN) or \"best offer\" depending on the seller. Also written as BO."
+  },
+  {
+    "term": "OBO",
+    "full": "Or Best Offer",
+    "category": "selling",
+    "aliases": ["or best offer"],
+    "definition": "Signals the seller will consider offers near their asking price instead of a fixed price."
+  },
+  {
+    "term": "MM",
+    "full": "Middleman",
+    "category": "selling",
+    "aliases": ["middleman", "mm"],
+    "definition": "A trusted third party who holds the account and/or payment during a deal so neither side can scam the other. Using a verified MM is standard practice. Beware of scammers impersonating known MMs."
+  }
+]
