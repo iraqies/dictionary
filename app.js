@@ -66,7 +66,7 @@ function renderFilters() {
 
 function cardHtml(term) {
   const aliases = (term.aliases || [])
-    .map((a) => `<span class="alias">${escapeHtml(a)}</span>`)
+    .map((a) => `<li>${escapeHtml(a)}</li>`)
     .join("");
 
   return `
@@ -76,8 +76,10 @@ function cardHtml(term) {
         <span class="badge">${escapeHtml(CATEGORY_LABELS[term.category] || term.category)}</span>
       </div>
       <p class="card-full">${highlight(term.full, state.query)}</p>
-      <p class="card-def">${highlight(term.definition, state.query)}</p>
-      ${aliases ? `<div class="aliases">${aliases}</div>` : ""}
+      <ul class="dash-list">
+        <li>${highlight(term.definition, state.query)}</li>
+      </ul>
+      ${aliases ? `<ul class="aliases">${aliases}</ul>` : ""}
     </article>
   `;
 }
